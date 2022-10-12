@@ -26,10 +26,13 @@ body{
 }
 
 .blogs-center{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 2rem;
     width: var(--fluid-width);
     max-width: var(--max-width);
     margin: 0 auto;
-    max-width: 30rem;
+    /*max-width: 30rem*/;
 }
 
 .blog{
