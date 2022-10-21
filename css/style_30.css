@@ -213,3 +213,8 @@ Navbar
     gap: 1.5rem;
 
 }
+
+.show-classdemo{
+    width: 100vw;
+    height: calc(100vh - 4rem);
+}
