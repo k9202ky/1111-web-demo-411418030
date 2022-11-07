@@ -1,10 +1,14 @@
+### 1.CONNECT TO DEMO
+
 ### Github URL
 
-[Github URL](https://github.com/k9202ky/1111-web-demo-411418030)
+[Github URL](https://github.com/k9202ky/1111-web-demo-411418030/blob/main/demo_30.html)
 
 ### Vercel URL
 
-[Vercel URL](https://1111-web-demo-411418030-8j4p.vercel.app/)
+[Vercel URL](https://1111-web-demo-411418030-8j4p.vercel.app/demo_30.html)
+
+### W08 and W09 Homeworks
 
 ### w08-P1: show fixed navbar with nav items
 
@@ -44,3 +48,13 @@ deffcfb k9202ky Fri Oct 28 22:50:12 2022 +0800  w08-P2: show tiles layout with c
 e4a7274 k9202ky Fri Oct 28 22:49:18 2022 +0800  w08-P2: show tiles layout with css
 9fff319 k9202ky Fri Oct 28 21:57:20 2022 +0800  w08-P1: show fixed navbar with nav items
 ```
+
+### 2.WORKS
+
+### Github URL
+
+[Github URL](https://github.com/k9202ky/1111-web-demo-411418030/blob/main/projects/midterm/works.html)
+
+### Vercel URL
+
+[Vercel URL](https://1111-web-demo-411418030-8j4p.vercel.app/demo_30.html)
