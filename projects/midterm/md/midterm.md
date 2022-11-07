@@ -1,3 +1,13 @@
+### Midterm-project.html
+
+### Github URL
+
+[Github URL](https://github.com/k9202ky/1111-web-demo-411418030/blob/main/projects/midterm/mid-project_30.html)
+
+### Vercel URL
+
+[Vercel URL](https://1111-web-demo-411418030-8j4p.vercel.app/demo_30.html)
+
 ### 1.CONNECT TO DEMO
 
 ### Github URL
@@ -57,4 +67,11 @@ e4a7274 k9202ky Fri Oct 28 22:49:18 2022 +0800  w08-P2: show tiles layout with c
 
 ### Vercel URL
 
-[Vercel URL](https://1111-web-demo-411418030-8j4p.vercel.app/demo_30.html)
+[Vercel URL](https://1111-web-demo-411418030-8j4p.vercel.app/projects/midterm/works.html)
+
+### 3.RESUME
+
+[Github URL](https://github.com/k9202ky/1111-web-demo-411418030/blob/main/projects/midterm/resume_30.html)
+
+[Vercel URL](https://1111-web-demo-411418030-8j4p.vercel.app/projects/midterm/resume_30.html)
+
