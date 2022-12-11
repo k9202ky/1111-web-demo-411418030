@@ -200,6 +200,21 @@ hero
 
 /*
 ====================
+about
+====================
+*/
+.about-center {
+  display: grid;
+  gap: 3rem 2rem;
+}
+@media screen and (min-width: 992px) {
+  .about-center {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*
+====================
 Services
 ====================
 */
