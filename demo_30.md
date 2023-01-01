@@ -79,6 +79,8 @@ aabed83 k9202ky Wed Dec 28 02:10:41 2022 +0800  w16-P1: show how to show odd num
 
 ### w11~w17 git log
 
+![](./images/log3.png)
+
 ![](./images/log1.png)
 
 ![](./images/log2.png)
