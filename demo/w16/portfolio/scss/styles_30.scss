@@ -357,8 +357,9 @@ Projects
     }
 
     &-img {
-      height: 15rem;
-      object-fit: cover;
+      height: 100%;
+      width: 100%;
+      background-size: cover;
     }
     &-info {
       text-align: center;

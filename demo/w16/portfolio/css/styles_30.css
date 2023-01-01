@@ -508,8 +508,9 @@ Projects
   opacity: 0.1;
 }
 .projects .project-img {
-  height: 15rem;
-  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
 }
 .projects .project-info {
   text-align: center;

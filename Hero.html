@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class Demo</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -12,49 +11,220 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./demo/w16/portfolio/css/styles_30.css">
-</head>
-<body>
-    <header class="hero">
-        <div class="section-center hero-center">
-            <article class="hero-info">
-              <div class="underline"></div>
-              <h1>I'm 葉政泓</h1>
-              <h4>淡江大學資工3C</h4>
-              <a href="./contact_30.html" class="btn hero-btn">hire me</a>
-              <!-- social icons -->
-          <ul class="social-icons hero-icons">
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=100003616504357" class="social-icon">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-icon">
-                <i class="fa-brands fa-tiktok"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-icon">
-                <i class="fa-brands fa-youtube"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="social-icon">
-                <i class="fa-brands fa-square-whatsapp"></i>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/zhenghongtw/" class="social-icon">
-                <i class="fa-brands fa-square-instagram"></i>
-              </a>
-            </li>
-          </ul>
-            </article>
-            <article class="hero-img">
-              <img src="images/HERO.png" class="hero-photo" alt="葉政泓">
-            </article>
+    <!-- css -->
+    <link rel="stylesheet" href="./demo/w16/portfolio/css/styles_30.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="nav navbar-fixed" id="nav">
+      <div class="nav-center">
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="#hero">hero</a>
+          </li>
+          <li>
+            <a href="#resume">resume</a>
+          </li>
+          <li>
+            <a href="#works">works</a>
+          </li>
+          <li>
+            <a href="learning_30.html">learning</a>
+          </li>
+          <li>
+            <a href="index.html">index</a>
+          </li>
+        </ul>
+  
+        <button class="nav-btn" id="nav-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      </nav>
+      <header class="hero" id="hero">
+          <div class="section-center hero-center">
+              <article class="hero-info">
+                <div class="underline"></div>
+                <h1>I'm 葉政泓</h1>
+                <h4>淡江大學資工3C</h4>
+                <a href="mailto:k9202ky@gmail.com" class="btn hero-btn">hire me</a>
+                <!-- social icons -->
+            <ul class="social-icons hero-icons">
+              <li>
+                <a href="https://www.facebook.com/profile.php?id=100003616504357" class="social-icon">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="fa-brands fa-tiktok"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="social-icon">
+                  <i class="fa-brands fa-square-whatsapp"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/zhenghongtw/" class="social-icon">
+                  <i class="fa-brands fa-square-instagram"></i>
+                </a>
+              </li>
+            </ul>
+              </article>
+              <article class="hero-img">
+                <img src="images/HERO.png" class="hero-photo" alt="葉政泓">
+              </article>
+          </div>
+        </header>
+    <!-- about -->
+    <section class="section about" id="resume">
+      <div class="section-center about-center">
+        <!-- about img -->
+        <article class="about-img">
+          <img
+            src="images/cat.jpg"
+            class="hero-photo"
+            alt="about img"
+          />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title about-title">
+            <h2>resume</h2>
+            <div class="underline"></div>
+          </div>
+          <!--end of section title -->
+          <p>
+            我的姓名是葉政泓,今年就讀淡江資工系3年級,專長是c和c++,打算畢業後攻讀研究所,目前只有完成一個project,是用pygame做成的小遊戲,會利用寒暑假多做一些leetcode上的題目,並找有興趣的project去研究
+          </p>
+          <p>
+            這張圖是我小時候養的貓咪,從幼稚園養到高中,但有一天牠不見了就再也沒找到了...
+          </p>
+          <a href="#" class="btn">about me</a>
+        </article>
+      </div>
+    </section>
+    <!-- end of about -->
+    <!-- projects -->
+    <section class="section projects" id="works">
+      <!-- section title -->
+      <div class="section-title">
+        <h2>works</h2>
+        <div class="underline"></div>
+        <p class="projects-text">
+          這是我用pygame做的小遊戲叫M14打歌利亞,是我2022年跨年開始做的,大概花了4到5天,有幾個地方是第一次做遊戲會覺得很棘手的,時間上的設定,碰撞的範圍設定,還有動畫比如說爆炸,要找一連串的圖片,雖然很多困難但完成時還是很有成就感
+        </p>
+        <div class="project-footer">
+          <span>
+            <i class="fab fa-github"></i>
+          </span>
+          <a href="https://github.com/k9202ky/First-game">source code</a>
         </div>
-      </header>
-</body>
+      </div>
+      <!--end of section title -->
+      <div class="section-center projects-center">
+        <!-- single project -->
+        <a href="https://github.com/k9202ky/First-game" class="project-1">
+          <article class="project">
+            <img
+              src="images/game1.png"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>client name</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+        <!-- single project -->
+        <a href="https://github.com/k9202ky/First-game" class="project-2">
+          <article class="project">
+            <img
+              src="images/game2.png"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>client name</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project --><!-- single project -->
+        <a href="https://github.com/k9202ky/First-game" class="project-3">
+          <article class="project">
+            <img
+              src="images/game3.png"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>client name</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project --><!-- single project -->
+        <a href="https://github.com/k9202ky/First-game" class="project-4">
+          <article class="project">
+            <img
+              src="images/game4.png"
+              alt="single project"
+              class="project-img"
+            />
+            <div class="project-info">
+              <h4>project title</h4>
+              <p>client name</p>
+            </div>
+          </article>
+        </a>
+        <!-- end of single project -->
+      </div>
+    </section>
+    <!-- end of projects -->
+     <!-- footer -->
+     <footer class="footer">
+      <!-- social icons -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.facebook.com/profile.php?id=100003616504357" class="social-icon">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social-icon">
+            <i class="fa-brands fa-square-whatsapp"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/zhenghongtw/" class="social-icon">
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+        </li>
+      </ul>
+
+    <p>&copy; <span id="date"></span> zhenghongtw. All rights reserved.</p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
